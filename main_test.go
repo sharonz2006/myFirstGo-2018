@@ -14,7 +14,7 @@ func TestHandler(t *testing.T) {
 		Headers: map[string]string{
 			"Content-Type": "text/html",
 		},
-		Body: "Congratulations",
+		Body: "Congratulations, Sharon, you have successfullly run a simple go program",
 	}
 
 	response, err := Handler(request)
